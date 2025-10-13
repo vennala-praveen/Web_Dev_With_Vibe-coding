@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h2{
+    text-align: center;
+    color: azure;
+    background-color: black;
+}
+
+p{
+    background-color: rgb(149, 243, 196);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 500;
+    text-align: center;
+    /* letter-spacing: 1px; */
+    word-spacing: 3px;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 3px gold;
+    text-decoration: underline;
+}
