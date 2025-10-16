@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #111;
+
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    padding: 40px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.child img{
+    height: 300px;
+    width: 200px;
+    background-color: #f65b5b;
+    border: 3px solid #fff;
+}
+
+.child h1{
+    color: aqua;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
